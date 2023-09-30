@@ -1,0 +1,15 @@
+#footer {
+    background: #4731ebb7;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #footer .copyright {
+    margin: 0 0 15px;
+  }
+  
+  #footer .socials a:hover {
+    background: #4731ebb7;
+  }
+  

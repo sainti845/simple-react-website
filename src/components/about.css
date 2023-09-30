@@ -1,0 +1,9 @@
+.image-about{
+margin: 0;
+border-radius: 23px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
