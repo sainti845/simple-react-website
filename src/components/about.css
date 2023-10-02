@@ -7,3 +7,8 @@ border-radius: 23px;
     display: flex;
     align-items: center;
 }
+
+.block{
+    width: 90vw !important;
+    
+}

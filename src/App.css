@@ -125,13 +125,6 @@ ul,
   transition: all 0.3s linear;
 }
 
-.content-block ul li a {
-  color: #333;
-}
-
-.content-block ul li a:hover {
-  color: #4731ebb7;
-}
 
 .btn.btn-primary {
   background: #4731ebb7;
@@ -184,7 +177,6 @@ textarea {
 
 .title-holder {
   text-align: center;
-  width: 90vw;
   margin: 3% auto;
 }
 
@@ -288,38 +280,6 @@ textarea {
   border-color: #4731ebb7;
 }
 
-.pagination>li.active a:hover {
-  background: #4731ebb7;
-  border-color: #4731ebb7;
-}
-
-.pagination>li>a {
-  color: #4731ebb7;
-  transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  padding: 6px 15px 12px;
-}
-
-.pagination>li>a:hover {
-  background: #4731ebb7;
-  color: #fff;
-  border-color: #4731ebb7;
-}
-
-.pagetitle {
-  margin: 80px 0 0;
-  background: #4731ebb7;
-  color: #fff;
-  padding: 50px 0;
-}
-
-.pagetitle .title-holder {
-  margin: 0;
-}
-
-.pagetitle .subtitle {
-  color: #e6e6e6;
-}
 
 #header {
   position: fixed;
@@ -332,65 +292,6 @@ textarea {
   transition: all 0.5s linear;
 }
 
-#header .navbar {
-  padding: 0;
-  justify-content: space-between;
-  background: none !important;
-}
-
-#header .navbar-brand {
-  color: #4731ebb7;
-  text-transform: uppercase;
-  font-weight: 600;
-  height: auto;
-  padding: 0;
-  font-size: 22px;
-  line-height: 1.6;
-}
-
-#header .navbar-collapse {
-  flex-grow: 0;
-}
-
-#header .navbar-collapse .navbar-nav {
-  font-size: 14px;
-  line-height: 20px;
-}
-
-#header .navbar-collapse a:last-child {
-  padding-right: 0;
-}
-
-#header .navbar-collapse a {
-  color: #4d4d4d;
-  position: relative;
-}
-
-#header .navbar-collapse a:hover,
-#header .navbar-collapse a.active {
-  background: none;
-  color: #4731ebb7;
-}
-
-#header .navbar-collapse a:hover:before,
-#header .navbar-collapse a.active:before {
-  right: 7px;
-  left: 8px;
-  opacity: 1;
-}
-
-#header .navbar-collapse a:before {
-  content: '';
-  background: #4731ebb7;
-  height: 1px;
-  position: absolute;
-  bottom: 7px;
-  left: -20px;
-  right: 100%;
-  transition: all 0.3s linear;
-  -webkit-transition: all 0.3s linear;
-  opacity: 0;
-}
 
 
 
@@ -478,11 +379,6 @@ textarea {
   .go-top:before {
     width: 11px;
     height: 11px;
-  }
-
-  .pagetitle {
-    padding: 30px 0;
-    margin: 56px 0 0;
   }
 
 }
